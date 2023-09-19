@@ -1,0 +1,14 @@
+# Mais informacoes em:
+# https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+# @name ratelimit1
+GET http://localhost:5020/Contador
+Content-Type: application/application/json
+Ocp-Apim-Subscription-Key: abcd
+
+###
+
+# @name ratelimit2
+GET http://localhost:5020/Contador
+Content-Type: application/application/json
+Ocp-Apim-Subscription-Key: efgh
